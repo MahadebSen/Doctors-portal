@@ -32,7 +32,7 @@ const Activities = () => {
   ];
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mx-6 mt-[-25px]">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mx-8 mt-[-25px]">
       {activities.map((item) => (
         <EachActivity key={item._id} item={item}></EachActivity>
       ))}
