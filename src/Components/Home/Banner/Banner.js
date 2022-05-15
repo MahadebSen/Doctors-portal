@@ -15,7 +15,7 @@ const Banner = () => {
         }}
         className="hero h-[802px]"
       >
-        <div className="hero-content flex-col lg:flex-row-reverse md:px-16">
+        <div className="hero-content flex-col lg:flex-row-reverse md:px-16 gap-[50px]">
           <img src={chair} className="max-w-md rounded-lg shadow-2xl" alt="" />
           <div>
             <h1 className="text-5xl font-bold">Your New Smile Starts Here</h1>
