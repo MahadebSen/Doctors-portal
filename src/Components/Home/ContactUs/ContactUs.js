@@ -11,7 +11,7 @@ const ContactUs = () => {
         backgroundSize: ``,
         backgroundPosition: `center`,
       }}
-      className="my-32 xl:rounded-2xl"
+      className="mt-32 mb-16 xl:rounded-2xl"
     >
       <div className="py-[]">
         <div className="text-center py-8">
@@ -20,7 +20,7 @@ const ContactUs = () => {
         </div>
         <div className="pb-8">
           <div class="form-control flex items-center ">
-            <div className="flex flex-col gap-3 mb-7">
+            <div className="flex flex-col gap-4 mb-7">
               <input
                 type="text"
                 placeholder="Email Address"
@@ -34,7 +34,7 @@ const ContactUs = () => {
               <textarea
                 type="text"
                 placeholder="Your massage"
-                class="input input-bordered w-[359px] md:w-[450px] h-[136px]"
+                class="input input-bordered w-[359px] md:w-[450px] h-[136px] py-3"
               />
             </div>
             <PrimaryButton>Submit</PrimaryButton>

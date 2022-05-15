@@ -6,10 +6,11 @@ import Banner2 from "./Banner2/Banner2";
 import Services from "./Services/Services";
 import Testimonial from "./Testimonial/Testimonial";
 import ContactUs from "./ContactUs/ContactUs";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
-    <div className="mb-5">
+    <div className="">
       <Banner></Banner>
       <Activities></Activities>
       <Services></Services>
@@ -17,6 +18,7 @@ const Home = () => {
       <HomeAppoinment></HomeAppoinment>
       <Testimonial></Testimonial>
       <ContactUs></ContactUs>
+      <Footer></Footer>
     </div>
   );
 };
