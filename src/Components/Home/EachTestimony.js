@@ -3,7 +3,7 @@ import React from "react";
 const EachTestimony = ({ comment }) => {
   const { name, address, img, testimony } = comment;
   return (
-    <div className="p-5 rounded-xl shadow-2xl">
+    <div className="px-6 py-8 rounded-xl shadow-2xl">
       <p className="mb-6">{testimony}</p>
       <div className="flex items-center ml-3">
         <div class="avatar w-[60px] h-[60px]">

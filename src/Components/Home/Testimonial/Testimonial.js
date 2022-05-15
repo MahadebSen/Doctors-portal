@@ -22,7 +22,7 @@ const Testimonial = () => {
           <img className="w-[195px] h-[160px]" src={quote} alt="" />
         </div>
       </section>
-      <section className="grid grid-cols-3 gap-10">
+      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         {comments.map((comment) => (
           <EachTestimony key={comment._id} comment={comment}></EachTestimony>
         ))}
